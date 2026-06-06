@@ -27,7 +27,7 @@ func main() {
 
 		x, y int     = 3, 4
 		c    float64 = math.Sqrt(float64(x*x + y*y))
-		z    uint    = uint(c)
+		z    uint    = uint(c) //konwersja T(v)
 	)
 
 	fmt.Printf("%v %v %v %q\n", i, f, b, s) // %q to bezpieczny quote, czyli da wszystko co jest w zmiennej
